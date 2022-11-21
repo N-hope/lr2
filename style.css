@@ -1,0 +1,30 @@
+/*зміна розмірів зображення*/
+.imeg{
+width: 900px;
+height: 400px;
+}
+@media (max-width:1200px){
+.imeg{max-width:600px;}
+}
+@media (max-width:800px){
+.imeg{max-width:400px;}
+}
+
+/*позиціонування*/
+.imeg2{
+	width: 85px;
+	height: 100px;	 
+	position: absolute;/*fixed;*/
+	margin-left: 10px;
+}
+/*обтікання*/
+#imeg3{
+	width: 85px;
+	height: 100px;	 
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 5px; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

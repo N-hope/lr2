@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>I-Tех</title>
+  <link rel="stylesheet" href="style.css">
+<style> 
+table{
+border-spacing: 0;
+}
+.tabl{
+border-style: none solid;
+border: 0px 2px;
+border-color: #C0392B;
+}
+td{
+width: 80px;
+height: 25px;
+}
+tr:nth-child(3) td{
+border-bottom: 2px solid #C0392B;
+}
+tr:nth-last-child(2n+1) td{
+background:#FDEDEC;
+border-bottom: 1px solid #C0392B;
+}
+tr:nth-child(3){
+background:#FADBD8;
+}
+tr:nth-child(1) {
+background:#C0392B; /*бордовий*/
+font: bold 150% serif;
+color: white;
+}
+td:not(:first-of-type){
+text-align: center;
+}
+</style>
+ </head>
+ <body>
+ <header><h1>Laboratorna robota #2(В6)</h1></header>
+ <main>
+ <article>
+ 
+ <section>
+ <p>4. Добавить в документ элемент, для стилизации которого использовать свойство position и свойства для указания смещения положения элемента. Использовать абсолютное, относительное или фиксированное позиционирование.
+ <img src="2.jpg" class="imeg2">
+ </p>
+ <div>
+ <img src="3.jpg" id="imeg3">
+ <p>5.Добавить в документ элементы, для стилизации которых использовать свойство float. Удобно показывать данное свойство на примере расположения навигационных элементов, или при обтекании текстом изображений.<br>
+ Lorem ipsum dolor sit amet, sit et dicit ludus deseruisse. Te debitis scaevola mel, mel ex malis viris vidisse, eius mucius officiis cu pro. Facete fuisset dissentias has te. Cum cu dicta aeque mollis, sea possit interpretaris no.<br>
+ Eam et adhuc expetenda definitiones, scribentur vituperatoribus his cu. Enim apeirian an usu, lucilius molestiae no vel. Mei in tation patrioque, nulla recusabo ne vis. Utroque dolorem ex est, nobis clita nam ex. Qui no veri noster, quot rebum voluptatibus mel eu, harum deterruisset sit id.<br>
+ Mel suas graece fabulas ex, tempor molestie vis ut. Meis essent inimicus pri no. Quo postulant appellantur ea. Duo erant debitis gubergren at. At quo facete suavitate reformidans.</p>
+ </div>
+ 
+ </section>
+ <section>
+   <p style="font-weight:bold;">Зображення</p>
+   <div>Добавить на страницу изображение, размер которого будет варьироваться в зависимости от размера окна браузера: при max-width: 1200px, ширина изображения составляет 600px, а при max-width: 800px - всего 400px. Использовать директиву media.
+   </div>
+   <div>
+     <img src="162.jpg" class="imeg">
+   </div>
+  </section>
+
+  <section>
+    <div>Таблиця</div>
+	<p>Добавить на страницу таблицу, центрировать её по горизонтали. Таблица должна быть оформлена согласно примеру. Обязательно использовать псевдоклассы.
+	</p>
+	<table class="tabl">
+<tr>
+    <td></td>
+	<td>2017</td>
+	<td>2018</td>
+    <td>2019</td>
+</tr>
+	<tr>
+	<td>ИТех</td>
+	<td>93</td>
+	<td>97</td>
+    <td>98</td>
+	</tr>
+<tr>
+	<td>КСх</td>
+	<td>91</td>
+	<td>98</td>
+    <td>97</td>
+	</tr>
+<tr>
+    <td>СПО</td>
+	<td>96</td>
+	<td>94</td>
+    <td>97</td>
+	</tr>   
+    </table> 
+  </section>
+  </article></main>
+  <Footer><nav></nav></footer>
+</body>
+</html>
